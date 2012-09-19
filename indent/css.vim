@@ -72,5 +72,5 @@ function GetCSSIndent()
   endif
 
   return indent(pnum) + s:count_braces(pnum, 1) * &sw
-"        \ - s:count_braces(v:lnum, 0) * &sw
+        \ - s:count_braces(v:lnum, 0) * &sw
 endfunction
